@@ -1,0 +1,128 @@
+body{
+    background:#0B0B0B;
+    color:#F2F2F2;
+    margin:0;
+    font-family:Montserrat;
+    }
+
+    .hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+    background:radial-gradient(circle at center,#141414,#000);
+    }
+
+    .hero-content{
+    z-index:2;
+    }
+
+    h1{
+    font-family:"Playfair Display";
+    font-size:64px;
+    letter-spacing:3px;
+    margin-bottom:10px;
+    }
+
+    .subtitle{
+    font-size:18px;
+    letter-spacing:4px;
+    color:#C6A76A;
+    }
+
+    .tagline{
+    margin-top:10px;
+    font-weight:300;
+    }
+
+    .hero-buttons{
+    margin-top:30px;
+    }
+
+    .btn-outline{
+    border:1px solid #C6A76A;
+    padding:12px 28px;
+    color:#C6A76A;
+    text-decoration:none;
+    margin-right:10px;
+    }
+
+    .btn-gold{
+    background:#C6A76A;
+    padding:12px 28px;
+    color:#000;
+    text-decoration:none;
+    }
+
+    .services{
+    padding:100px 20px;
+    text-align:center;
+    }
+
+    .services-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+    margin-top:40px;
+    }
+
+    .service-card{
+    border:1px solid #2A2A2A;
+    padding:30px;
+    width:220px;
+    transition:0.3s;
+    }
+
+    .service-card:hover{
+    border-color:#C6A76A;
+    }
+
+    .portfolio{
+    padding:100px 20px;
+    text-align:center;
+    }
+
+    .gallery{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+    }
+
+    .video-box{
+    width:320px;
+    height:200px;
+    background:#1A1A1A;
+    }
+
+    .contact{
+    padding:100px 20px;
+    text-align:center;
+    }
+
+    form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:320px;
+    margin:auto;
+    }
+
+    input, textarea{
+    padding:10px;
+    background:#141414;
+    border:1px solid #333;
+    color:white;
+    }
+
+    button{
+    background:#C6A76A;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+    }
+
