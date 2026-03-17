@@ -125,4 +125,81 @@ body{
     padding:12px;
     cursor:pointer;
     }
+    
+@media (max-width: 1024px){
+
+    h1{
+    font-size:48px;
+    }
+
+    .services-grid{
+    gap:15px;
+    }
+
+    .video-box{
+    width:260px;
+    height:160px;
+    }
+
+    }
+
+    @media (max-width: 768px){
+
+    h1{
+    font-size:36px;
+    }
+
+    .subtitle{
+    font-size:14px;
+    letter-spacing:2px;
+    }
+
+    .tagline{
+    font-size:14px;
+    padding:0 20px;
+    }
+
+
+    .hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    }
+
+    .btn-outline, .btn-gold{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    }
+
+    /* SERVICIOS */
+    .services{
+    padding:60px 20px;
+    }
+
+    .services-grid{
+    flex-direction:column;
+    align-items:center;
+    }
+
+    .service-card{
+    width:90%;
+    }
+
+
+    .gallery{
+    flex-direction:column;
+    align-items:center;
+    }
+
+    .video-box{
+    width:90%;
+    height:200px;
+    }
+
+    form{
+    width:90%;
+    }
+
+    }
 
